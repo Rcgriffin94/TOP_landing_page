@@ -1,0 +1,145 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #212121;
+    color: white;
+    align-items: center;
+    padding: 30px 0px 30px 100px;
+    justify-content: space-between;
+}
+
+.header_nav_list {
+    padding: 30px 200px 30px 100px;
+}
+
+.header_nav_list ul {
+    list-style: none;
+    display: flex;
+    gap: 75px;
+}
+
+.header_nav_list a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero_section {
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 200px 30px 100px;
+}
+
+.hero_section h1 {
+    font-size: 48px;
+    font-weight: 900px;
+    color: white;
+}
+
+.hero_section p {
+    font-size: 18px;
+    font-weight: 900px;
+    color: white;
+}
+
+.hero_section button {
+    background-color: #D32F2F;
+    color: white;
+    height: 40px;
+    width: 90px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+.hero_section img {
+    height: 450px;
+    width: 450;
+}
+
+.hero_text p {
+    padding: 20px 0px 20px 0px;
+}
+
+.info_section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px 200px 30px 100px;
+}
+
+.info_section h1 {
+    padding: 0px 0px 20px 0px
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.info_block img {
+    height: 200px;
+    border-radius: 5%;
+}
+
+.info_block p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.quote_section {
+    display: flex;
+    flex-direction: column;
+    background-color: #FBC02D;
+    text-align: center;
+    padding: 100px;
+}
+
+.quote_section h3,
+.quote_section p {
+    font-size: 36px;
+}
+
+.cta_section {
+    display: flex;
+    flex-direction: row;
+    background-color: #D32F2F;
+    padding: 100px;
+    margin: 50px 200px 50px 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.cta_button {
+    padding: 30px;
+}
+
+.cta_button button {
+    height: 60px;
+    width: 90px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    outline: 3px solid white;
+}
+
+.footer {
+    background-color: #212121;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
